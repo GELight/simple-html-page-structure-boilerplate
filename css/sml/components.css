@@ -25,6 +25,7 @@
     --sml-code-attr-color: var(--colors-gold-300);
     --sml-code-val-color: var(--white);
     --sml-code-string-val-color: var(--colors-green-500);
+    --sml-code-font-weight: 700;
 }
 
 /* Header */
@@ -159,11 +160,16 @@ section,
     background: var(--sml-code-bg);
     padding: var(--sml-code-padding);
     color: var(--sml-code-color);
+    font-weight: var(--sml-code-font-weight);
 }
 
 .sml-code .row {
     display: flex;
     gap: var(--gap-sm);
+    margin-left: var(--gap-sm);
+}
+.sml-code .row > .row {
+    margin-left: var(--gap-sm);
 }
 
 .sml-code .sml-elm {
