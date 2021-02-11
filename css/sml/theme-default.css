@@ -1,0 +1,60 @@
+/* Prototype - Social Cow - Theme Variables */
+:root {
+    --sml-theme-background: var(--colors-bluegray-500);
+    --sml-theme-on-background: var(--colors-bluegray-50);
+    --sml-theme-on-background-placeholder: var(--colors-gray-300);
+    
+    --sml-theme-primary-color: var(--colors-orange-500);
+    --sml-theme-on-primary-color: var(--white);
+    
+    --sml-theme-secondary-color: var(--colors-blue-500);
+    --sml-theme-on-secondary-color: var(--colors-blue-900);
+
+    --sml-theme-border: 4px solid var(--colors-bluegray-100);
+    --sml-theme-shadow: 0 0 var(--gap-sm) rgba(0,0,0,.4);
+
+    --sml-theme-font-family: var(--font-family);
+    --sml-theme-font-size: var(--font-size);
+    --sml-theme-line-height: var(--line-height);
+    --sml-theme-font-weight: var(--font-weight);
+    --sml-theme-font-style: var(--font-style);
+    --sml-theme-font-stretch: var(--font-stretch);
+    --sml-theme-letter-spacing: var(--letter-spacing);
+    --sml-theme-text-transform: var(--text-transform);
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    font-size: 100%;
+    font-size: calc(var(--font-size) * 1rem);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--sml-theme-background);
+    background-position: top center;
+    background: var(--colors-bluegray-500);
+    background: linear-gradient(161deg, var(--colors-bluegray-500) 0%, var(--colors-bluegray-800) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--sml-theme-font-family);
+    font-size: var(--sml-theme-font-size);
+    line-height: var(--sml-theme-line-height);
+    font-weight: var(--sml-theme-font-weight);
+    font-style: var(--sml-theme-font-style);
+    font-stretch: var(--sml-theme-font-stretch);
+    letter-spacing: var(--sml-theme-letter-spacing);
+    text-transform: var(--sml-theme-text-transform);
+    color: var(--sml-theme-on-background);
+}
