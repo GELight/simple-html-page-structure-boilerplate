@@ -53,7 +53,7 @@
 
     --sml-link-color: var(--sml-theme-primary-color);
     --sml-link-padding: 0 var(--gap-xs);
-    --sml-link-text-decoration: none;
+    --sml-link-text-decoration: underline;
     --sml-link-hover-color: var(--white);
 
 }
@@ -67,6 +67,7 @@ a {
 }
 a:hover {
     color: var(--sml-link-hover-color);
+    cursor: pointer;
 }
 
 /* Header */
@@ -134,10 +135,7 @@ main {
 
 section,
 .section {
-    padding: 0 var(--sml-section-padding);
     color: var(--sml-section-color);
-    margin-right: auto;
-    margin-left: auto;
     padding-top: var(--sml-section-gap);
     padding-bottom: var(--sml-section-gap);
 }
@@ -173,44 +171,43 @@ section.no-p,
     padding-right: 0;
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (min-width: 600px) {
-    section.container,
-    .section.container {
+    .container {
         width: 540px;
     }
 }
 
 @media (min-width: 960px) {
-    section.container,
-    .section.container {
+    .container {
         width: 840px;
     }
 }
 
 @media (min-width: 1200px) {
-    section.container,
-    .section.container {
+    .container {
         width: 1140px;
     }
 }
 
 @media (min-width: 1920px) {
-    section.container,
-    .section.container {
+    .container {
         width: 1680px;
     }
 }
 
 @media (min-width: 2560px) {
-    section.container,
-    .section.container {
+    .container {
         width: 1680px;
     }
 }
 
 @media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
-    section.container,
-    .section.container {
+    .container {
         width: 1920px;
     }
 }
@@ -350,16 +347,19 @@ iframe {
 
 .headline-1 {
     font-size: var(--sml-headline-1);
+    margin-bottom: var(--gap-lg);
     font-weight: 400;
     text-align: center;
 }
 .headline-2 {
     font-size: var(--sml-headline-2);
+    margin-bottom: var(--gap-lg);
     font-weight: 400;
     text-align: center;
 }
 .headline-3 {
     font-size: var(--sml-headline-3);
+    margin-bottom: var(--gap-lg);
     font-weight: 400;
     text-align: center;
 }
