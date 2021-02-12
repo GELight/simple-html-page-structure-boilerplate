@@ -93,10 +93,11 @@ header .brand {
     font-weight: var(--sml-header-brand-font-weight);
 }
 
-header section.container {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--gap-lg);
 }
 
 header nav {
@@ -174,6 +175,13 @@ section.no-p,
 .container {
     margin-right: auto;
     margin-left: auto;
+}
+
+@media (max-width: 599px) {
+    .container {
+        width: 100%;
+        padding: var(--gap-lg);
+    }
 }
 
 @media (min-width: 600px) {
