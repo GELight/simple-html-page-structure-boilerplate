@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="css/sml/components.css" />
     </head>
     <body>
+
         <header>
             <section class="container">
                 <a rel="prefetch" href="#about" class="brand">SML</a>
@@ -95,6 +96,12 @@
         </header>
 
         <main>
+			<section class="bg-image" style="background-image: url(img/header.jpg);">
+				<section class="container center">
+					<div class="headline-2 m-top-xxl">Simple Markup Language</div>
+				</section>
+			</section>
+
             <section class="container" id="about">
                 <div class="headline-1">What is SML?</div>
                 <div class="grid-3">
@@ -131,19 +138,14 @@
                 </div>
             </section>
 
-            <section class="container" id="language-support">
-                <div class="headline-1">Language Support</div>
-            </section>
+			<section class="inverted">
+				<div class="container" id="language-support">
+					<div class="headline-1">Language Support</div>
+				</div>
+			</section>
 
             <section class="container" id="specification">
                 <div class="headline-1">Specification</div>
-                <div>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-                    dolor sit amet. Lorem ipsum dolor sit amet, <a href="#">consetetur sadipscing elitr</a>, sed diam nonumy eirmod tempor invidunt ut labore et
-                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                    takimata sanctus est Lorem ipsum dolor sit amet.
-                </div>
             </section>
 
             <section class="container" id="guide">
@@ -153,7 +155,7 @@
             <section class="container" id="examples">
                 <div class="headline-1">Examples</div>
 
-                <section>
+                <section class="no-p">
                     <div class="sml-code">
                         <div class="row">
                             <span class="sml-elm">Message</span>
@@ -181,6 +183,7 @@
                 </section>
             </section>
         </main>
+
         <footer>
             <div>
                 <a href="https://github.com/GELight" class="icon" title="GitHub" target="_blank">
@@ -251,5 +254,6 @@
             <div>Released under the MIT License</div>
             <div>Copyright &copy; <strong>Stefan John</strong></div>
         </footer>
+
     </body>
 </html>
