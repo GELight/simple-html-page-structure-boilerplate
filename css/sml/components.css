@@ -259,6 +259,10 @@ footer svg {
     height: 20px;
 }
 
+footer a:hover svg {
+    fill: var(--sml-header-brand-color);
+}
+
 /* Grid */
 
 [class*="grid-"] {
