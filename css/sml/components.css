@@ -291,7 +291,9 @@ footer svg {
     fill: var(--sml-footer-color);
     height: 20px;
 }
-
+footer a {
+    text-decoration: none;
+}
 footer a:hover svg {
     fill: var(--sml-header-brand-color);
 }
