@@ -6,12 +6,12 @@
     --sml-header-color: var(--colors-bluegray-900);
     --sml-header-shadow: 0 0 var(--gap-md) 0 var(--colors-bluegray-900);
     
-    --sml-header-brand-font-size: 22px;
+    --sml-header-brand-font-size: 24px;
     --sml-header-brand-text-decoration: none;
     --sml-header-brand-color: var(--sml-theme-primary-color);
     --sml-header-brand-font-weight: 400;
 
-    --sml-header-nav-item-font-size: 16px;
+    --sml-header-nav-item-font-size: 14px;
     --sml-header-nav-item-text-decoration: none;
     --sml-header-nav-item-color: var(--sml-header-color);
     --sml-header-nav-item-font-weight: 400;
@@ -21,11 +21,11 @@
     --sml-code-bg: var(--colors-bluegray-200);
     --sml-code-padding: var(--gap-md);
     --sml-code-color: var(--white);
-    --sml-code-elm-color: var(--colors-gold-500);
-    --sml-code-attr-color: var(--colors-gold-300);
+    --sml-code-elm-color: var(--colors-gold-600);
+    --sml-code-attr-color: var(--colors-gold-200);
     --sml-code-val-color: var(--white);
     --sml-code-string-val-color: var(--colors-green-500);
-    --sml-code-font-weight: 700;
+    --sml-code-font-weight: 400;
 
     --sml-footer-gap: var(--gap-md);
     --sml-footer-bg: var(--colors-bluegray-800);
@@ -178,7 +178,6 @@ section > .section,
 
 .sml-code .row {
     display: flex;
-    gap: var(--gap-sm);
 }
 .sml-code .row > .row {
     margin-left: var(--gap-lg);
