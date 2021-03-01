@@ -58,3 +58,9 @@ body {
     text-transform: var(--sml-theme-text-transform);
     color: var(--sml-theme-on-background);
 }
+
+img {
+    width: 100%;
+    border: var(--gap-xs) solid var(--white);
+    box-shadow: 0 0 var(--gap-md) 0 var(--colors-bluegray-200);
+}

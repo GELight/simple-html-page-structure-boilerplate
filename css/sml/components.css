@@ -363,19 +363,19 @@ iframe {
 
 .headline-1 {
     font-size: var(--sml-headline-1);
-    margin-bottom: var(--gap-lg);
+    /* margin-bottom: var(--gap-lg); */
     font-weight: 400;
     text-align: center;
 }
 .headline-2 {
     font-size: var(--sml-headline-2);
-    margin-bottom: var(--gap-lg);
+    /* margin-bottom: var(--gap-lg); */
     font-weight: 400;
     text-align: center;
 }
 .headline-3 {
     font-size: var(--sml-headline-3);
-    margin-bottom: var(--gap-lg);
+    /* margin-bottom: var(--gap-lg); */
     font-weight: 400;
     text-align: center;
 }
