@@ -50,12 +50,6 @@ class SmlHtmlBuilder {
         return attributes.join(" ");
     }
 
-    encodeHtmlEntities(rawStr) {
-        return rawStr.replace(/[\u00A0-\u9999<>\&]/g, (i) => {
-            return "&#" + i.charCodeAt(0) + ";";
-        });
-    }
-
     htmlToElements(html) {
         let template = document.createElement("template");
         template.innerHTML = html;
