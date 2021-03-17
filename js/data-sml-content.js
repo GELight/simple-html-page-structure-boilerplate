@@ -6,11 +6,24 @@ SmlPage
 			Children
 				Div
 					Class headline-1
-					Text "Language Support"
+					Text "SML - The Simple Markup Language"
 				End
 				Div
 					Class container
-					Text "Lorem ipsum dolor sit amet, consetetur <a>sadipscing elitr, sed diam nonumy</a> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur <a>sadipscing elitr</a>, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero <a>eos et accusam</a> et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                    Children
+                        p
+                            Text "The Simple Markup Language is an easy and fast to type markup language. It only uses a minimal set of special characters and therefor feels very natural. It is line-based, and if you are a touch typist you will love it."
+                        End
+                        p
+                            Text "SML was specifically designed to be understandable for even non-computer experts. It is human-friendly, while also being machine-friendly. It has multi-language support and offers a 100% reliable encoding and decoding."
+                        End
+                        p
+                            Text "SML is a lightweight markup language but still powerful and flexible. It is meant to be an alternative for XML, JSON and YAML."
+                        End
+                        p
+                            Text "It is especially suited for hierarchical data, but can also nest tabular data with ease. Through its support for comments and whitespace-preserving loading and saving techniques, it is the number one choice for configuration files. But it's not limited to that."
+                        End
+                    End
 				End
 			End
 		End
